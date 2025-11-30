@@ -1,0 +1,6 @@
+{
+  "title": "YourCompany macOS Setup",
+  "message": "We’re securing and configuring your Mac. This will only take a few minutes.",
+  "icon": "/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/ToolbarCustomizeIcon.icns",
+  "quitKey": "command+q"
+}
