@@ -31,4 +31,26 @@ This repository contains cross-platform samples for client / endpoint engineerin
 - `queries/*.sql` – Individual queries for disk encryption, Defender status, local admins, outdated OS, and firewall status.
 - `security_hardening_pack.yml` – Example osquery pack bundling multiple security posture checks.
 
+### Windows Autopilot
+
+- `autopilot/WindowsAutopilotProfile.json` – Sample Autopilot profile showing how I design zero-touch OOBE for Azure AD-joined devices.
+
+### macOS Onboarding (SwiftDialog)
+
+- `zero-touch/macos/swiftdialog_enrollment.sh` – Modern macOS onboarding UX using SwiftDialog with staged tasks and progress updates.
+- `zero-touch/macos/swiftdialog_config.json` – UI configuration for SwiftDialog.
+
+### MDM Comparison
+
+- `docs/mdm_comparison_intune_jamf_mosyle_kandji.md` – My comparison of major MDM vendors and where they fit best.
+
+### PowerShell Module
+
+- `psmodules/EndpointEngineeringTools` – Example PowerShell module for reusable endpoint inventory and baseline enforcement functions.
+
+### FleetDM SDK
+
+- `fleetdm/sdk/fleet_client.py` – Lightweight Python client to talk to the FleetDM API and run live queries programmatically.
+
+  
 Each script is documented with comments describing its purpose and usage.
