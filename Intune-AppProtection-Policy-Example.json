@@ -1,0 +1,16 @@
+{
+  "displayName": "iOS - MAM - Require PIN and Encrypt - Example",
+  "description": "Sample Intune App Protection policy for portfolio.",
+  "periodOfflineBeforeAccessCheck": "PT720H",
+  "periodOnlineBeforeAccessCheck": "PT0H",
+  "periodOfflineBeforeWipeIsEnforced": "PT720H",
+  "appDataEncryptionType": "whenDeviceLocked",
+  "pinRequired": true,
+  "maximumPinRetries": 5,
+  "simplePinBlocked": true,
+  "minimumPinLength": 6,
+  "allowedInboundDataTransferSources": "managedApps",
+  "allowedOutboundClipboardSharingLevel": "managedAppsWithPasteIn",
+  "dataBackupBlocked": true,
+  "fileSharingSaveAsBlocked": true
+}
