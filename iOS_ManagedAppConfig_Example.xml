@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dict>
+  <key>helpdesk_email</key>
+  <string>support@yourcompany.com</string>
+
+  <key>require_mdm_enrollment</key>
+  <true/>
+
+  <key>telemetry_enabled</key>
+  <true/>
+
+  <key>default_region</key>
+  <string>US</string>
+</dict>
