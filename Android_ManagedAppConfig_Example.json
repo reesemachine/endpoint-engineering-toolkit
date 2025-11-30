@@ -1,0 +1,18 @@
+{
+  "helpdesk_email": {
+    "type": "string",
+    "value": "support@yourcompany.com"
+  },
+  "require_mdm_enrollment": {
+    "type": "bool",
+    "value": true
+  },
+  "telemetry_enabled": {
+    "type": "bool",
+    "value": true
+  },
+  "default_region": {
+    "type": "string",
+    "value": "US"
+  }
+}
