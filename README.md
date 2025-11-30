@@ -40,10 +40,6 @@ This repository contains cross-platform samples for client / endpoint engineerin
 - `zero-touch/macos/swiftdialog_enrollment.sh` – Modern macOS onboarding UX using SwiftDialog with staged tasks and progress updates.
 - `zero-touch/macos/swiftdialog_config.json` – UI configuration for SwiftDialog.
 
-### MDM Comparison
-
-- `docs/mdm_comparison_intune_jamf_mosyle_kandji.md` – My comparison of major MDM vendors and where they fit best.
-
 ### PowerShell Module
 
 - `psmodules/EndpointEngineeringTools` – Example PowerShell module for reusable endpoint inventory and baseline enforcement functions.
