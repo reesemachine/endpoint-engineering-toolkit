@@ -1,0 +1,23 @@
+{
+  "name": "Standard Autopilot Profile - Portfolio Example",
+  "description": "Windows Autopilot profile used to demonstrate zero-touch deployment skills.",
+  "language": "en-US",
+  "outOfBoxExperienceSettings": {
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "hideLocalAccountScreen": true,
+    "hideOEMRegistrationScreen": true,
+    "hideConnectivityPage": false,
+    "userType": "Standard",
+    "skipKeyboardSelectionPage": true,
+    "deviceUsageType": "Shared"
+  },
+  "enrollmentStatusScreenSettings": {
+    "hideInstallationProgress": false,
+    "allowDeviceUseBeforeProfileAndAppInstallComplete": false,
+    "blockDeviceSetupRetryByUser": false,
+    "showAppStatus": true
+  },
+  "deviceType": "WindowsPc",
+  "azureADJoinType": "AzureADJoined"
+}
